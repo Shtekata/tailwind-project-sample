@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "@prettier/plugin-xml",
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-classnames",
+    "prettier-plugin-organize-attributes",
+    "prettier-plugin-merge"
+  ],
+  "organizeAttributes": {
+    "order": ["id", "src", "alt", "title", "class", "name", "type"]
+  },
+  "printWidth": 120,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "arrowParens": "avoid",
+  "singleAttributePerLine": false
+}
