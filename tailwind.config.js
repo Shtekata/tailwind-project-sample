@@ -1,6 +1,7 @@
 // console.log('TAILWIND CONFIG IS LOADED')
 export default {
   content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     screens: {
       sm: '640px',
@@ -16,6 +17,12 @@ export default {
         220: 'var(--spacing-220)',
         230: 'var(--spacing-230)',
       },
+      // backgroundImage: {
+      //   'logo-dark-mode': "url('../images/logo-dark-mode.svg')",
+      //   'logo-light-mode': "url('../images/logo-light-mode.svg')",
+      //   'curvy-dark-mode': "url('../images/bg-curvy-dark-mode.svg')",
+      //   'curvy-light-mode': "url('../images/bg-curvy-light-mode.svg')",
+      // },
     },
   },
 }
