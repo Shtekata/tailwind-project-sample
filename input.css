@@ -2,19 +2,19 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Bai Jamjuree', sans-serif;
+  --font-sans: 'Rubik', sans-serif;
   /* Colors */
-  --color-strongCyan: hsl(171, 66%, 44%);
-  --color-lightBlue: hsl(233, 100%, 69%);
-  --color-darkGrayishBlue: hsl(210, 10%, 33%);
-  --color-grayishBlue: hsl(201, 11%, 66%);
-   /* Spacing */
+  --color-softBlue: hsl(231, 69%, 60%);
+  --color-softRed: hsl(0, 94%, 66%);
+  --color-grayishBlue: hsl(229, 8%, 60%);
+  --color-veryDarkBlue: hsl(229, 31%, 21%);
+  /* Spacing */
   --spacing-180: 32rem;
   --spacing-200: 34rem;
   --spacing-220: 36rem;
   --spacing-230: 37rem;
 }
 
-body {
+/* body {
   @apply font-sans;
-}
+} */

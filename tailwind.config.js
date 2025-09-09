@@ -4,11 +4,11 @@ export default {
   darkMode: 'class',
   theme: {
     screens: {
-      sm: '640px',
+      sm: '480px',
       md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
+      lg: '1020px',
+      xl: '1440px',
+      '2xl': '1920px',
     },
     extend: {
       spacing: {
